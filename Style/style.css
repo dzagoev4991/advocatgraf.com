@@ -1,0 +1,169 @@
+body
+{
+    background-color:rgb(21, 21, 21);
+    margin:0;
+    padding: 0;
+}
+
+div
+{
+    margin: 0;
+    padding: 0;
+}
+
+#header
+{
+    background-color: black;
+    color: aliceblue;
+    position: absolute;
+
+    width: 100%;
+    padding-left: 20px;
+
+}
+
+.text-changer
+{
+padding-top: 100px;
+}
+.me
+{
+    margin-bottom: 100px;
+    padding: 0 100px 5% 5%;
+    color: rgb(164, 165, 166);
+}
+
+strong
+{
+    color: rgb(216, 216, 216);
+}
+
+#content
+{
+    margin:  auto 2%;
+    
+    
+    background-color: rgb(21, 21, 21);
+}
+
+#my-photo
+{
+    float:right;
+    position: relative;
+    margin: 0px 0px 0px 15px;
+    width: 200px;
+    border-radius: 20px;
+
+}
+
+p
+{
+    margin: 0;
+	font:100%  sans-serif;
+	padding:10px;
+}
+
+#chang
+{
+    font:50px fantasy;
+    color: rgb(164, 165, 166);
+    display: grid;
+    place-items: center;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.active,.btn
+{
+    margin-top: 10px;
+    font:30px fantasy;
+    color: rgb(243, 243, 255);
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(89, 35, 35);
+    
+
+
+}
+
+.hdn
+{
+    margin: 0;
+    padding: 0 10px;
+    background-color: rgb(214, 210, 206);
+    border-radius: 10px;
+    overflow: hidden;
+    max-height: 0;
+    transition: 1s ease-out;
+    
+   
+}
+
+#footer
+{
+    background-color: black;
+    color: aliceblue;
+    position: fixed;
+    margin-bottom: 0;
+    width: 100%;
+    bottom: 0;
+    color: rgb(239, 239, 239);
+    float:inline-end;
+}
+
+table
+{
+    padding-left: 0;
+    font:70%  sans-serif;
+    color: aliceblue;
+    width: 100%;
+}
+
+input::placeholder
+{
+    text-align: center;
+}
+
+input
+{
+    text-align: center;
+}
+.input
+{
+    border: none;
+    border-color: brown;
+    border-radius: 20px;
+    padding:10px;
+}
+
+form
+{
+    width: 100%;
+}
+
+label
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+#message
+{
+    padding:10px;
+    width: 80%;
+    
+}
+
+#clickToSend
+{
+    background-color: rgb(89, 35, 35);
+    padding:10px ;
+    font:20px fantasy;
+    color: antiquewhite;
+}
+
